@@ -81,9 +81,17 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/huggingface/transformers
+2. Gráfico selecionado: ![](image.png)
+3. Explicação: Após avaliar todos os gráficos, creio que o LOC x tempo representa bem o que aconteceu com o repositório ao longo dos anos.
+
+O paper 'Attention Is All You Need' criou a arquitetura de transformers em 2017. Desde então, com a popularização de LLMs, bibliotecas como a huggingface/transformers foram criadas para facilitar o download e execução (ou chamadas) de grandes modelos de geração de texto, áudio, imagens e vídeos.
+
+Essa tendência é visível no gráfico: a biblioteca foi desenvolvida ao longo dos anos, ficando cada vez mais complexa (mais linhas de código) após 2021, momento de popularização da IA generativa.
+
+Em 2025, o pico de linhas de código é atingido, e em 2026, o número diminui. A refatoração/reorganização de módulos após a explosão da IA generativa faz sentido: após o pico do desenvolvimento, é preciso revisar e melhorar o código que pode ter ficado ruim.
+
+No gráfico de Python Files, a linha também é crescente. No LOC / Python Files, ela sempre se mantém próxima de 450, e cai em 2026. Isso é bom, pois mostra que em nenhum momento o desenvolvimento ficou desorganizado nesse sentido: sempre manteve uma quantidade média de linhas de código em cada arquivo razoável.
 
 
 
